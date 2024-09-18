@@ -1,7 +1,8 @@
-header .background { background-image: url('../media/rabbit_main.jpg');height: 85vh;background-position: center; background-repeat: no-repeat;background-size: cover;position: relative;}
-header .maintext { text-align: center;position: absolute;top: 70%;left: 50%;transform: translate(-50%, -50%);color: white; font-size: 80px;}
+header .background { background-image: url('../media/content/rabbit_main.jpg');height: 85vh;background-position: center; background-repeat: no-repeat;background-size: cover;position: relative;}
+header .maintext { text-align: center;position: absolute;top: 80%;left: 50%;transform: translate(-50%, -50%);color: black; font-size: 80px;}
 header {max-width: 1280px; padding-bottom: 0px; padding-top: 0px; margin: none;}
 header h1 { font-size: 40px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
+header h2 { font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
 
 main img { width:100%; max-width: 800px; margin-bottom: 15px;}
 body {max-width: 800px;margin:0px auto; padding:10px; padding-top: 0px}
