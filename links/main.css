@@ -1,12 +1,15 @@
-header .center { text-align: center;position: relative;color: black; font-size: 80px;}
-header img {align-content: center; max-width: 700px}
-header {max-width: 1280px; padding-bottom: 0px; padding-top: 0px; margin: none;}
-header h1 { font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px; margin-top: 2px}
+body {max-width: 900px;margin:30px auto; padding-top: 0px}
+body img {display:block;margin:0px auto;max-width: 100%}
 
-body {max-width: 800px;margin:0px auto; padding:10px; padding-top: 0px}
-b { font-weight: bold }
-a {color: black; text-decoration: underline;}
+header {max-width: 100%; padding-bottom: 0px; margin: none;}
+header h1 {text-align: center;font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px; margin-top: 2px}
+header .title { margin-bottom:30px }
 
-footer { background: #fff; color: #000; line-height: 30px; font-size: 15px; color: black; padding:10px; padding-top: 10px}
-footer a {color: black; text-decoration: none}
-footer a:hover { cursor: pointer; text-decoration: underline;}
+footer { margin-top:30px }
+
+p { display:block; color:rgba(0,0,0,0); position:absolute }
+
+@media print {
+	p { display:block; color:black }
+	.noprint { display:none }
+}
