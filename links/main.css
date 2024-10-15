@@ -3,7 +3,9 @@ body img {display:block;margin:0px auto;max-width: 100%}
 
 header {max-width: 100%; padding-bottom: 0px; margin: none;}
 header h1 {text-align: center;font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px; margin-top: 2px}
-header .title { margin-bottom:30px }
+header .title { margin-bottom:40px }
+
+main gallery img {padding-bottom: 10px; padding-right: 20px;display: inline-block }
 
 footer { margin-top:30px }
 
