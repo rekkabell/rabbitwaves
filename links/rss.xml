@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' ?><rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'><channel>
+
+<title>Rabbit Waves</title>
+<link>https://rabbitwaves.ca</link>
+<description>Rabbit Waves content updates</description>
+ <image>
+<url>https://rabbitwavec.ca/media/services/rss.jpg</url>
+<title>Rabbit Waves</title>
+<link>https://rabbitwaves.ca</link>
+</image>
+
+<item>
+  <title>International Maritime Signal Flags</title>
+  <link>https://rabbitwaves.ca/site/flags_maritime.html</link>
+  <guid isPermaLink='false'>flags_maritime.html</guid>
+  <pubDate>Sat, 19 Oct 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[
+  <img src='../media/content/2024_signaling_intro.jpg'>
+    <p>The International Code of Signals is a system of signals and codes designed to communicate important safety and navigational messages when speaking is difficult (because of language barriers, distance, etc). A standardized alphabet was created (see below image), along with a spoken word form for each one, designed to set apart similar-sounding letters like B, V and D. Each letter/numeral was assigned a flag:</p>
+
+  <img src='../media/content/2024_phonetic_alphabet.jpg' loading='lazy' alt='a complete list of the flags that represent each letter of the phonetic alphabet, each word has a pronounciation guide'>
+    <p>Phonetic Alphabet. Alfa : Al fah, Bravo : Brah voh, Charlie : Char Lee, Delta : Dell tah, Echo : Eck oh, Foxtrot : Foks trot, Golf, Hotel : Hoh tel, India : In dee ah, Juliet : Jee lee ett, Kilo : Key loh, Lima : Lee mah, Mike, November : Novem ber, Oscar : Oss cah, Papa: Pah pah, Quebec : Keh Beck, Romeo : Row me oh, Sierra : See air rah, Tango : Tan go, Uniform : Oo nee form, Victor : Vik tah, Whiskey : Wiss key, X-ray : Ecks ray, Yankee : Yang kee, Zulu : Zoo loo, 1st substitute, 2nd substitute, 3rd substitute, Answering penant or decimal point, 1 : Unaone : Oo nah wun, 2 : Bissotwo : Bee soh too, 3 : Terratree : Tay rah tree, 4 : Kartefour : Kar tay fower, 5 : Pantafive : Pan tah five, 6 : Soxisix : Sok see six, 7 : Setteseven : Say tay seven, 8 : Oktoeight : Ok toh ait, 9 : Novenine : No vay niner, 0 : Nadazero : Nah dah zay roh</p>
+
+  <img src='../media/content/2024_assigned_meanings_handflags.jpg' loading='lazy' alt='instructions on the different ways to use signal flags'>
+    <p>To save time when signaling, each flag has an assigned meaning to communicate very urgent or common messages. When used alone, the Oscar flag means "man overboard." When paired in twos, flags take on more specific meanings. For example, the Uniform and Whiskey flags used together in that order mean "I wish you a pleasant voyage." Numerals appended to two flags permit for more detailed messages, for example: The Quebec flag paired with the Romeo flags and the 1 number flag means "Can I come alongside?" Three letter signals that begin with Mike are reserved to communicate medical emergencies, for example: Mike followed by Alpha and then by a 2nd substitute flag is code for "I request urgent medical advice."</p>
+
+  <img src='../media/content/2024_substitute_handflags.jpg' loading='lazy' alt='instructions on how to use substitute flags'>
+    <p>The title reads: Substitutes. To avoid having to carry multiple flags of the same signal, the ICS(international code of signals) uses 3 substitute flags. A substitute flag repeats the one at the indicated position. A drawing shows 3 flags for the 3 substitute flags. An example shows how to signal DD, which is to fly the flag signal Delta followed by the 1st substitute flag. DD means: "boats are not allowed to come alongside."</p>
+
+  <img src='../media/content/2024_dayshapes_intro.jpg'>
+    <p>When in distress, signal using the N and C flags. Another visual way to communicate distress, say one is lacking signal flags, is to have a square flag above/below a ball shape (anything resembling a ball). This is known as a day shape.</p>
+
+  <img src='../media/content/2024_spelling_handflags.jpg' loading='lazy' alt='instructions on how to spell using flags'>
+    <p>Single letter flags, like Kilo, are used to spell out words. An example shows how to spell the boat named Pino, using the following flags: Papa, India, November and Oscar. A title reads "Spelling", followed by: To begin spelling, hoist the Yankee and Zulu flags, which means, "The words which follow are in plain language." An example spells out the name Nastya using the following flags: November, Alpha, Sierra, Tango, Yankee and the 2nd substitute flag.</p>
+
+  <img src='../media/content/2024_otherlanguages_ics.jpg' loading='lazy' alt='an example on how the ICS signals are used to communicate with others who do not speak the same language as you'>
+    <p>One practical use of the International Code of Signals(ICS) is that all of the messages are standardized and come in 9 languages: English, French, Italian, German, Japanese, Spanish, Norwegian, Russian and Greek. The signal flag Victor was assigned "I require assistance" as a coded meaning. Under this, is illustration featuring a conversation betweeo a spectacled guillemot and a herring gull. The spectacled guillemot speaks Japanese, while the herring gull speaks Russian. The guillemot is yelling "Tasukete!" but the herring gull does not understand. The guillemot then yells out the coded meaning for Victor, "ビクター! ビクター(Bikutaa! Bikutaa!)" The herring gull understood this, and says Я понимаю (Ya ponimayu, to mean "I understand").</p>
+
+  <img src='../media/content/2024_howtosignal_flags.jpg' loading='lazy' alt='instructions on how to communicate with signal flags'>
+    <p>The title reads, How to communicate with another vessel using flags. One: A murrelet raises a Kilo flag to mean "I wish to communicate with you." Two: The herring gull raises an answering pennant to mean that the signal was understood. Three: The murrelet raises a Romeo flag followed by a Foxtrot flag, to mean "Will you lead me to a safe anchorage?" Four: The herring gull raises an answering pennant to mean that the signal was understood. Five: The herring gull raises a Charlie flag to mean "Affirmative." Six: The murrelet raises  an answering pennant to mean that the signalling is now over. Seven: The herring gull raises an answering pennant to mean that the signal was understood.</p>
+  <img src='../media/content/2024_notunderstand_flags.jpg' loading='lazy' alt='instructions on how to communicate with signal flags that a signal was not understood'>
+    <pIf the message is not understood, keep the answering pennant up. A drawing shows two birds on separate boats, the herring gull did not understand the murrelet's message and has kept the answering pennant up. Another way to signal that the message was not understood is to fly the Zulu and Lima flags, to mean "your signal has been received but not understood.</p>
+  <img src='../media/content/2024_handflag_intro.jpg' loading='lazy' alt='a rabbit waving a pair of oscar hand flags to initiate a conversation with another sailor by semaphore flags'>
+
+<p><a href='https://rabbitwaves.ca/site/flags_maritime.html' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
+  <title>Hand flag semaphore</title>
+  <link>https://rabbitwaves.ca/site/flags.html</link>
+  <guid isPermaLink='false'>flags.html</guid>
+  <pubDate>Sat, 19 Oct 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[
+<img src='../media/content/2024_handflags_howto.jpg' loading ='lazy' alt='a guide on the uses and ways to use hand flag to communicate from afar'> 
+    <p>Flag semaphore is a way of communicating at a distance by using hand flags. Information - such as the letters of the alphabet, numerals, etc - are encoded by the position of the flags. At sea, the Oscar flag acts as a signaling flag (on land, it's the Papa flag). To start signaling letters, signal J. To start signaling numerals, signal the hand flag position for numerals. To request permission to start a transmission, signal the "attention" signal(which doubles as the error signal). The one receiving the signal uses the "ready to receive a signal" flag position, which consists of raising the two flags overhead, then to drop them to the rest position (only once). The one receiving the signals ends the transmission with the same "ready to receive" flag signal. The one receiving the signal can then reply with the "attention" signal to make a reply. At night lighted wants replace the hand flags. It's also possible to signal using your arms only, but signals are easier to read with flags.</p>
+
+  <img src='../media/content/2024_semaphore.jpg' loading ='lazy' alt='rabbits waving two hand flags in 27 different positions to indicate the letters of the alphabet, including a position to indicate the need for a space between words'>
+   <img src='../media/content/semaphore_anim.gif' loading ='lazy' alt='rabbits waving two hand flags in 27 different positions to indicate the letters of the alphabet, including a position to indicate the need for a space between words'>
+
+  <img src='../media/content/2024_japanese_semaphore.jpg' loading ='lazy' alt='a description of how the japanese sephamore system works'>
+    <p>The Japanese devised <a href="href="https://en.wikipedia.org/wiki/Flag_semaphore#Japanese_semaphore" target="_blank">their own semaphore</a> system adapted to fit their writing system which has way more characters than the Latin alphabet. Most characters require two flag positions to complete(an image of the two flag signals for the Japanese character A)... some require three(an image of the three flag signals for the Japanese character HO). When signaling the motion describes the angles of the brush strokes used when writing, it also takes the order of the strokes into account. Below the text is a graphic of an example of stroke order for the Japanese characters A and HO.</p>]]>
+</description>
+</item>
+
+<item>
+  <title>Day Shapes</title>
+  <link>https://rabbitwaves.ca/site/day_shapes.html</link>
+  <guid isPermaLink='false'>day_shapes.html</guid>
+  <pubDate>Sat, 19 Oct 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[
+ <img src='../media/content/2024_dayshapes.jpg' loading ='lazy' alt='an explanation of how to use day shapes on boats'>
+    <p>Day Shapes are signals raised during daylight hours to indicate their status to other vessels. The signals consist of geometric shapes, like a sphere, a cylinder, a diamond and a cone. When combined together, the shapes communicate different messages: A single ball means "at anchor". An inverted cone means "Under sail & power". A diamond means "towing vessel", or "vessel towed". Two cones with their points touching in the middle means "Fishing with limited maneuvrability", when paired with a single cone it means that there is outlying gear more than 150 M from the vessel. Two balls over one another means "not under command". 3 balls laid horizontally, with the middle ball raised higher, means "minesweeping". 3 balls over each other means "aground". A diamond sitting between two balls vertically means "restricted maneuvrability", it is paired with: 1) 2 diamonds laid vertically over one another, which indicates the safe side to pass the vessel 2) 2 spheres over one another vertically, which indicates the side where the obstruction exists. A vertical cylinder means "constrained by draft". A square over a sphere means "in distress".</p>]]>
+</description>
+</item>
+
+</channel>
+</rss>
