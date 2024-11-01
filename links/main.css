@@ -7,6 +7,7 @@ header .title { margin-bottom:40px }
 
 main .title { margin-bottom:30px; margin-top:30px }
 main nav img {padding-bottom: 10px; padding-right: 20px;}
+nav {display: none}
 p { display:block; color:rgba(0,0,0,0); position:absolute }
 h2 {display: none}
 
