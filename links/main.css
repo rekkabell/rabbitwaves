@@ -44,7 +44,8 @@ footer { margin-top:30px }
 /* Mobile */
 
 @media only screen and (max-width: 1100px) {
-	main, header, footer {padding-top: 10px;padding-right: 20px;padding-bottom: 0px;padding-left: 20px;}
+	main, header {padding-top: 10px;padding-right: 20px;padding-bottom: 0px;padding-left: 20px;}
 	#wrapfooter {max-width: 100%}
-	header .title {max-width: 100%}
+	header .title {max-width: 90%; margin-bottom: 20px}
+	footer {padding-top: 0px; padding-right: 20px;padding-bottom: 0px;padding-left: 20px; margin-top: 20px}
 }
