@@ -58,12 +58,14 @@ Ibuprofen
 Aspirin
 	- Oral. Pain, fever, inflammation reducer, e.g., treat/prevent heart attacks, strokes, chest pain.
 Antihistamines
-	- Diphenhydramine. Allergy relief
+	- Diphenhydramine. Allergy/itch relief
 Motion sickness meds 
-	- Scopolamine patches, dimenhydrinate(dramamine), meclizine, promethazine, ephedrine, etc.
+	- Scopolamine patches, dimenhydrinate(dramamine), meclizine, promethazine, efphedrine, etc.
 Ear drops
 	- To treat pain, inflammation, infection and earwax blockage. There are different formulations for each ailment.
 Eye wash
+Hot water bottle
+	- To treat hypothermia
 Insect repellant (mosquitoes can carry malaria, or dengue)
 	- Ought to include picaridin(also known as icaridin), DEET, ethyl butylacetylaminopropionate (IR3535), or oil of lemon eucalyptus (containing p-menthane-3,8-diol, PMD).
 Hand sanitizer
@@ -71,11 +73,11 @@ Hand sanitizer
 Hydrocortisone
 	- Combat inflammation, severe itching. It may be used topically for allergic rashes, eczema, psoriasis, itching, and other inflammatory skin conditions. It's also used to treat hemorrhoids(as a suppository).
 Calamine lotion
-	- For mild skin itching (poison ivy, poison oak, insects, sunburn, etc)
+	- For insect bites, mild itchiness.
 Topical anesthetic
-	- To reduce pain, or itchiness on the skin, eyes, the inside of the nose, ear or throat, the anus and the genital area(different formulations for each area). Topical anesthetics are available in creams, ointments, aerosols, sprays, lotions, and jellies. Examples include benzocaine, butamben, dibucaine, lidocaine, oxybuprocaine, pramoxine, proxymetacaine (proparacaine), and tetracaine (also named amethocaine).
-Azithromycin
-	- Oral. Treatment of bacterial infections, e.g., traveler's diarrhea, gastrointestinal infections, etc.
+	- To reduce pain, or itchiness on the skin, eyes, the inside of the nose, ear or throat, the anus and the genital area(different formulations for each area). Topical anesthetics are available in creams, ointments, aerosols, sprays, lotions, and jellies. Examples include benzocaine, pramocaine, butamben, dibucaine, lidocaine, oxybuprocaine, pramoxine, proxymetacaine (proparacaine), and tetracaine (also named amethocaine).
+Antibiotic
+	- Oral. Treatment of bacterial infections, e.g., traveler's diarrhea, gastrointestinal infections, etc, e.g, amoxicillin, azithromycin, cephalexin, and ciprofloxacin.
 Acetaminophen (paracetamol)
 	- Oral. Severe pain relief, fever reducer. Has the least side effects, e.g, padanol, tylenol.
 Sunscreen (SPF 30)
@@ -104,15 +106,12 @@ NOTE: For very strong over-the-counter pain relief, combine variations of parace
 
 # Advanced Medicine kit add-ons:
 
-Hot water bottle
-	- To treat hypothermia
 Staple gun
 	- to close wounds
 Epinephrine 
 	- for severe allergic reactions. Vials, Allerject/AUVI-Q. Avoid EpiPens, they are grifters.
 Tourniquet
 	- for severe bleeding
-Multitool
 Compression bandage
 	- To treat sprains or strain, helps to reduce swelling.
 Reinforced sterile skin closures
