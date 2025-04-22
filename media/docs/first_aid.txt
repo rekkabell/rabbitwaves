@@ -40,13 +40,13 @@ Thermometer(strip, and/or full thermometer)
 A good first-aid manual
 Burn care dressing(with gel)
 	- Water Jel, Burncare, Alocane, Second Skin, etc. To care for minor burns, quickly.
-Antifungal
-	- To treat yeast infections, e.g. Canesten.
-Laxative
-	- Oral. Constipation relief.
 
 # Basic Medicine kit:
 
+Antifungal cream
+	- To treat yeast infections, e.g. Canesten.
+Laxative
+	- Oral. Constipation relief.
 Ibuprofen 
 	- Oral. Use for minor pain, and fever reducer, e.g., toothache, menstruation cramps, headache.
 Aspirin
@@ -80,7 +80,7 @@ Aloe vera gel with lidocaine
 Topical antibiotic (ointment & powder)
 	- Bacitracin/Polysporin/Neosporine. Topical ointment. Prevents infection. For minor scrapes, cuts, and burns. Powder is useful for bad burns that are too painful to touch, and to prevent infection in deep cuts. 
 Hydrogen peroxide(3% dilution)
-	- Wound disinfectant(good for initial cleaning, not for prolonged use on the same area), antiseptic, can use it to sterilize tools and surfaces(.
+	- Wound disinfectant(good for initial cleaning, not for prolonged use on the same area), antiseptic, can use it to sterilize tools and surfaces).
 Antidiarrheal
 	- To combat diarrhea, e.g., s loperamide(Imodium), diphenoxylate, bismuth subsalicylate(Pepto-Bismol), cholestyramine, and octreotide. 
 Codeine
@@ -112,7 +112,7 @@ Compression bandage
 	- To treat sprains or strain, helps to reduce swelling.
 Reinforced sterile skin closures
 CPR pocket mask
-	- to give CPR, makes it easier to cover mouth
+	- To protect both the caregiver and the patient at risk of exposure to body fluids when performing CPR. It also creates an airtight seal over the patient's mouth and nose. A one-way valve allows air to flow into the victim’s lungs while also keeping the caregiver cut off from the patient’s air, spit, blood, vomit or other fluids. Not only does this help keep the nose closed, but it also protects against the transmission of bacteria, viruses, and diseases during this procedure.
 Povidone surgical scrubs (iodine)
 	- Antiseptic. Used to reduce bacteria on the skin prior to surgery or patient care, or for handwashing.
 Sterile sutures thread with needle
@@ -124,3 +124,5 @@ Emergency bandage(also known as israeli bandage)
 	- Possible to apply one-handed(to yourself). Designed to apply pressure to a wound, easy to secure in place.
 Scalpel(with sterile blades)
 	- To remove splinters, boils, etc.
+Irrigation syringe
+	- In wound irrigation to remove debris and bacteria, during medical procedures to flush fluids or medications into specific areas of the body, and for ear and nasal irrigation to remove excess earwax or nasal congestion.
