@@ -12,12 +12,12 @@
 <item>
   <title>Page 3 comic</title>
   <link>https://rabbitwaves.ca/</link>
-  <guid isPermaLink='false'>https://rabbitwaves.ca</guid>
+  <guid isPermaLink='false'>https://rabbitwaves.ca/media/comic/p3.jpg</guid>
   <pubDate>Wed, 12 Aug 2026 07:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Page three of the Rabbit Waves comic, in which Arkady and Hazy raft their boats, Natsya and Teapot, together and exchange keywords for a future project over warm drinks.</p>
-  <img src='media/comic/p3.jpg' alt='A comic showing two root-vegetable shaped sailboats, Natsya and Teapot, rafted alongside one another. Arkady reaches outside to fill a teapot with hot water, using a series of solar evacuated tubes installed on deck. Arkady makes tea, then proceeds to telling Hazy two words: Starfish, and Cloud. Hazy signals that they will remember the 2 words by giving a thumbs up. Both proceed to look at a map, Arkady points to a specific island.'>'>
+  <img src='https://rabbitwaves.ca/media/comic/p3.jpg' alt='A comic showing two root-vegetable shaped sailboats, Natsya and Teapot, rafted alongside one another. Arkady reaches outside to fill a teapot with hot water, using a series of solar evacuated tubes installed on deck. Arkady makes tea, then proceeds to telling Hazy two words: Starfish, and Cloud. Hazy signals that they will remember the 2 words by giving a thumbs up. Both proceed to look at a map, Arkady points to a specific island.'>'>
   <p><a href='https://rabbitwaves.ca' target='_blank'>Continue Reading</a></p>]]>
 </description>
 </item>
@@ -25,14 +25,14 @@
 <item>
   <title>Rabbit Waves Comic</title>
   <link>https://rabbitwaves.ca/</link>
-  <guid isPermaLink='false'>https://rabbitwaves.ca</guid>
+  <guid isPermaLink='false'>https://rabbitwaves.ca/media/comic/coffeep1.jpg</guid>
   <pubDate>Sun, 21 Jun 2026 07:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Some comic pages I completed. I finished the first one a while ago but forgot to share it on the RSS, apologies, now you get 2 pages! All of the colored items on the comic link(when on the rabbit waves website) to other more descriptive pages on the website.</p>
-  <img src='media/comic/coffeep1.jpg' alt='A comic showing how a rabbit living aboard a giant turnip sailboat at sea prepares coffee, starting with a rain water collector on deck, which funnels the water into a filter(a container with layers of gravel, sand and charcoal). The filtered water then runs through a paper filter before slowly trickling through a tube indoors via a small spout, filling a kettle. The inside of the turnip sailboat is cozy, with a little woodstove, shelves filled with jars(heavy glass jars are cushioned with knitted sleeves) of food and goods, a box filled with dishware, a wall pouch with signal flags, a jug full of water, etc. 
+  <img src='https://rabbitwaves.ca/media/comic/coffeep1.jpg' alt='A comic showing how a rabbit living aboard a giant turnip sailboat at sea prepares coffee, starting with a rain water collector on deck, which funnels the water into a filter(a container with layers of gravel, sand and charcoal). The filtered water then runs through a paper filter before slowly trickling through a tube indoors via a small spout, filling a kettle. The inside of the turnip sailboat is cozy, with a little woodstove, shelves filled with jars(heavy glass jars are cushioned with knitted sleeves) of food and goods, a box filled with dishware, a wall pouch with signal flags, a jug full of water, etc. 
 The rabbit opens a jar of coffee beans and roasts them in a cast iron pan over the woodstove before grinding them using a hand grinder(the grinder has a big disc overtop for grinding). Then the rabbit boils water over the woodstove to pour over the grounds. The last frame is a fresh cup of warm coffee.'>
-  <img src='media/comic/p2.jpg' alt='A comic showing a rabbit living aboard a giant turnip sailboat at sea, the rabbit hears a whistle, looks outside using binoculars and sees another sailboat, shaped like a kumara, with 3 signal flags hoisted(Q, R and 1). The rabbit grabs 2 flags, goes outside, and hoists a striped red and white flag, then a R flag. With permission to approach, the kumara sailboat sails towards the turnip boat and lowers the sail when near.'>
+  <img src='https://rabbitwaves.ca/media/comic/p2.jpg' alt='A comic showing a rabbit living aboard a giant turnip sailboat at sea, the rabbit hears a whistle, looks outside using binoculars and sees another sailboat, shaped like a kumara, with 3 signal flags hoisted(Q, R and 1). The rabbit grabs 2 flags, goes outside, and hoists a striped red and white flag, then a R flag. With permission to approach, the kumara sailboat sails towards the turnip boat and lowers the sail when near.'>
   <p><a href='https://rabbitwaves.ca' target='_blank'>Continue Reading</a></p>]]>
 </description>
 </item>
@@ -82,7 +82,7 @@ The rabbit opens a jar of coffee beans and roasts them in a cast iron pan over t
   <title>Celestial Compass</title>
   <link>https://rabbitwaves.ca/site/celestial_compass.html</link>
   <guid isPermaLink='false'>celestial_compass.html</guid>
-  <pubDate>Tue, 01 Oct 2025 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 01 Oct 2025 07:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<img src='../media/content/cn_polarisnav.jpg' alt='a rabbit standing atop a turnip shaped sailboat, a book in hand, looking at the stars overhead'>
@@ -410,7 +410,7 @@ The rabbit opens a jar of coffee beans and roasts them in a cast iron pan over t
    <img src='../media/content/semaphore_anim.gif' loading ='lazy' alt='rabbits waving two hand flags in 27 different positions to indicate the letters of the alphabet, including a position to indicate the need for a space between words'>
 
   <img src='../media/content/2024_japanese_semaphore.jpg' loading ='lazy' alt='a description of how the japanese sephamore system works'>
-    <p>The Japanese devised <a href="href="https://en.wikipedia.org/wiki/Flag_semaphore#Japanese_semaphore" target="_blank">their own semaphore</a> system adapted to fit their writing system which has way more characters than the Latin alphabet. Most characters require two flag positions to complete(an image of the two flag signals for the Japanese character A)... some require three(an image of the three flag signals for the Japanese character HO). When signaling the motion describes the angles of the brush strokes used when writing, it also takes the order of the strokes into account. Below the text is a graphic of an example of stroke order for the Japanese characters A and HO.</p>
+    <p>The Japanese devised <a href="https://en.wikipedia.org/wiki/Flag_semaphore#Japanese_semaphore" target="_blank">their own semaphore</a> system adapted to fit their writing system which has way more characters than the Latin alphabet. Most characters require two flag positions to complete(an image of the two flag signals for the Japanese character A)... some require three(an image of the three flag signals for the Japanese character HO). When signaling the motion describes the angles of the brush strokes used when writing, it also takes the order of the strokes into account. Below the text is a graphic of an example of stroke order for the Japanese characters A and HO.</p>
 
 <p><a href='https://rabbitwaves.ca/site/flags.html' target='_blank'>Continue Reading</a></p>]]>
 </description>
