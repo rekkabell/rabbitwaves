@@ -22,29 +22,58 @@
 <main>
     <img src='../media/content/cipher_23.jpg' alt=''>
     <img src='../media/content/cipher_01_intro.jpg' alt=''>
-    <p class='noprint'>text</p>
-    <img src='../media/content/cipher_02.jpg' alt=''>
-    <img src='../media/content/cipher_03.jpg' alt=''>
-    <img src='../media/content/cipher_04.jpg' alt=''>
-    <img src='../media/content/cipher_05.jpg' alt=''>
+    <p class='noprint'>people have longed relied on ciphers to share secrets in a safe and private way.<br>Pen and paper ciphers, or hand ciphers, consist of 2 separate parts: the cipher, which determines how the message will be encrypted, and the key, which serves to scramble the message.<br>There are many types of ciphers out there, but our focus will be on transposition ciphers. With transposition ciphers, the ciphertext is a jumbled version of the original plaintext, all of the original letters are still there.<br>Types of transposition ciphers include: rail fence, scytale, columnar, etc...</p>
+    <h2>Columnar Transposition Ciphers</h2>
+    <img src='../media/content/cipher_02.jpg' alt='a graphic shows the differences between a regular and irregular columnar transposition. Irregular leaves spaces blank, regular fills spaces with nulls'>
+    <p class='noprint'>columnar transposition ciphers work by rearranging the order of the letters according to a keyword, letters in that keyword are numbered in alphabetical order, then read off column by column starting with column number 1.<br>The letters in the original messages are still all there, but jumbled. The keyword defines the width of the rows, and the permutations of the columns.<br>For instance, the word Hazy has a length of 4, which means each will will span 4 letters, and the permutation of the letters is defined by their alphabetical order: 2143</p>
+    <img src='../media/content/cipher_03.jpg' alt='a graphic shows a drawing of a starfish'>
+    <p class='noprint'>to encrypt the following message: Meet me at 1700H at the beach. The first step is to pick a keyword: Starfish. Number each letters of the keyword according to which comes up first in the alphabet: For Starfish, the order is 68152473. In starfish, A would be assigned the number 1, F would get number 2 etc. If the keyword has more than one of the same letter(two a's for example), the left-most one gets the lower number. Example: Remember is numbered as 72536148.</p>
+    <img src='../media/content/cipher_04.jpg' alt='a graphic shows a cute rabbit holding a starfish and a cloud. Another shows the keyword starfish with the numbers 6815247 aligned under each letter in that exact order. The phrase meet me at 1700h at the beach is written underneath the letters, from left to right, skipping to the next row once reaching last columns until the message is all there.'>
+    <p class='noprint'>Now fill the columns with the desired message.<br>The keyword orders the way columns are read and determines how many there are.<br>To create the encrypted message, go to column 1, and write down the letters under it, do the same for column 2,3, etc, combining them in groups of 5.</p>
+    <img src='../media/content/cipher_05.jpg' alt='a graphic shows a blue cloud. Another graphic shows a transposition table using cloud as a keyword.'>
+    <p class='noprint'>For a double transposition cipher, choose a second keyword, it will scramble the letters again, making for better ciphertext.<br>Assign numbers to it using the above method and fill the columns with the ciphertext generated from the first keyword.<br>Go to the column numbered as 1 and write down the letters under it, again, in groups of 5 (for readability).<br>This is the final doubly encrypted cipher text: eac1e hamh0 tth7b toaem eet</p>
     <img src='../media/content/cipher_06.jpg' alt=''>
+    <p class='noprint'>Lets reverse engineer the ciphertext used in the above example. The encrypted message is eac1e hamh0 tth7b toaem eet, the 2 keywords are starfish and cloud.<br>To decrypt the message, count the number of letters, this will help determine how many rows there are. The above ciphertext has 23 letters.</p>
     <img src='../media/content/cipher_07.jpg' alt=''>
-    <img src='../media/content/cipher_08.jpg' alt=''>
-    <img src='../media/content/cipher_09.jpg' alt=''>
-    <img src='../media/content/cipher_12.jpg' alt=''>
-    <img src='../media/content/cipher_10.jpg' alt=''>
-    <img src='../media/content/cipher_11.jpg' alt=''>
-    <img src='../media/content/cipher_13.jpg' alt=''>
-    <img src='../media/content/cipher_14.jpg' alt=''>
+    <p class="noprint">Number the letters of the second keyword in alphabetical order. Copy down the first letters of the message under 1, continue into 2,3 etc, until you run out of letters.</p>
+    <img src='../media/content/cipher_08.jpg' alt='a graphic showing how the transposition table for the keyword cloud is gradually filled out, row by row with the final ciphertext.'>
+    <img src='../media/content/cipher_09.jpg'>
+    <p class="noprint">Next, copy the letters as they come from left to right, top-down.<br>Now you have the encrypted message from the first keyword: e0bmh attea ct0em 1hath e7e<br>repeat steps for the first keyword, the secret message will then be readable</p>
+    <h2>Rail Fence</h2>
+    <img src='../media/content/cipher_12.jpg' alt='a graphic shows how to write a rail fence cipher, with a red line showing the reading path'>
+    <p class="noprint">named after the way it is encoded, a railfence cipher works by writing plaintext diagonally across successive lines (or rails) and bounces away when hitting the top or bottom.<br>Plaintext: I am a rabbit<br>The text is read off from left to right.<br>Ciphertext: iriaa abtmb</p>
+    <h2>Scytale</h2>
+    <img src='../media/content/cipher_10.jpg' alt='a graphic shows a baton with a narrow piece of wrapped wrapped around it in a single layer, when coiled a phrase is visible. There is another drawing showing the unwrapped message, with the letters looking jumbled when appearing one on top of the other. The letters, from top to bottom, read as: tst.haa.isl.sce..iy! The unwrapped message has nulls, or periods, added at the end.'>
+    <p class="noprint">Similar to the rail fence cipher, but the way the text is encrupted differsin that it is read fromtop to bottom, progressing towards the right.<br>Plain text: we are rabbits<br>Ciphertext: weber iaatr bs<br>The sctyle cipher is based on the scytale, which is a baton with a strip of parchment wrapped around it. A message is written along the entire length of the strip.<br>The reader of the message has a baton with the same diameter to decipher it.<br>Plain text: This is a scytale!<br>Ciphertext: tstha aisls ceiy</p>
+    <h2>Route Cipher</h2>
+    <img src='../media/content/cipher_11.jpg' alt='a drawing shows a wave made up of rabbits. A graphic shows the route ciphers with nulls X and Q added, and a red line showing how to read the message.
+    <p class="noprint">With route ciphers, the message is written in a grid then read following a pattern which functions as a key.<br>Plaintext: Rabbit waves are very fast<br>Example key: spiral inwards anti-clockwise starting from bottom left.<br>Ciphertext: btvav ysqxt ferew braia sera</p>
+    <img src='../media/content/cipher_13.jpg' alt='a table shows the keyword rabbitwaves, with each letter numbered according to the order in which it appears in the alphabet: 7 1 3 4 6 9 11 2 10 5 8. The message: this message is very secret, is written over 5 rows, with it being partially broken onto a new line whenever the message reached a column matching its row number.'>
+    <p class="noprint">Disrupted transposition adds a layer of complexity to a regular transposition.<br>Plain text: this message is very secret.<br>Start a new row when the message reaches a column matching its row number.<br>Ciphertext: hsiee gmsrc eyrse tievs sta</p>
+    <h2>Fractionation</h2>
+    <img src='../media/content/cipher_14.jpg' alt='a drawing shows a humanoid gull holding a sign with greek letters arranged in a table. A table shows a table numbered from 1-5 horizontally and vertically, the alphabet is written from left to right, filling up all of the spaces, except that the letters i and j are combined into a single space.'>
+    <p class="noprint">Works by breaking up letters before transpositionning them, it is usually combined with other techniques.<br>The polybius square is often used to fractionate plaintext. Polybius squares allow for the plaintext to be represented by fewer symbols, which makes it useful for cryptography, telegraphy and stenography.</p>
     <img src='../media/content/cipher_15.jpg' alt=''>
-    <img src='../media/content/cipher_18.jpg' alt=''>
-    <img src='../media/content/cipher_16.jpg' alt=''>
-    <img src='../media/content/cipher_17.jpg' alt=''>
-    <img src='../media/content/cipher_19.jpg' alt=''>
-    <img src='../media/content/cipher_20.jpg' alt=''>
-    <img src='../media/content/cipher_21.jpg' alt=''>
-    <img src='../media/content/cipher_22.jpg' alt=''>
-    <h2>Arm Sling</h2>
+    <p class="noprint">The polybius square divides the alphabet into 5 squares with 5 letters each, except for one shared by I and J. Each letter is represented by 2 numbers from 1-5. Thusly, 26 characters can be represented using only 5 numbers. It's possible to use a larger grid to fractionate cyrillic, or hiragana.</p>
+    <img src='../media/content/cipher_18.jpg' alt='A table shows a table numbered from 1-5 horizontally and vertically, the keyword is written in the first 9 squares(with each letter only used once), and the rest of the alphabet is written from left to right, filling up all of the spaces.'>
+    <p class="noprint">Lets re order the alphabet using a keyword, like rabbitwaves.<br>Use the keyword to fill the first 5 spaces, then fill the rest with the remaining letters of the alphabet with care not to reuse the same letter twice.</p>
+    <img src='../media/content/cipher_16.jpg' alt='there is a drawing of a large rabbit wave, with a small turnip-shaped sailboat riding the top of the crest and yelling Whoa! A rabbit shows the keyword rabbit waves with the fractionated phrase transposed into it.'>
+    <p class="noprint">Plain text: a good wave<br>Fractionated: 21 33 44 44 13 12 21 22 32<br>Write the above string of numbers into the transposition grid.<br>The cipher text in numbers is: 12243 31323 42143 142<br>Using the polybius square, convert is back to letters. The final cipher text is: wmgdfslbs</p>
+    <div id='wrap'>
+        <img src='../media/content/cipher_17.jpg' alt='There is a drawing of the head of a spectacled guillemot, reciting the iroha poem in Japanese: 以呂波耳本へ止 千利奴流乎和加 餘多連曽津祢那 良牟有為能於久 耶万計不己衣天 阿佐伎喩女美之 恵比毛勢須. The poem is then transposed into a polybius square as hiragana in the following order: いろはにほへとちりぬるをわかよたれそつねならむうゐのおくやまけふこえてあさきゆめみしゑひもせす.'>
+         <a style='width: 30%;height: 20%;top: 50%;left: 55%;' title='Link to a page about the iroha alphabet' href="https://en.wikipedia.org/wiki/Iroha"><span>Iroha</span></a>
+        <p class="noprint">The iroha alphabet has 48 characters and requires a 7x7 grid (with a blank cell at the end) for fractionation.<br>The iroha is based on the word order of a famous poem of the same name. The iroha is a perfect pangram, containing each character once. It is a Japanese equivalent of ABCDE...</p>
+    </div>
+    <h2>Straddling Checkerboard</h2>
+    <img src='../media/content/cipher_19.jpg' alt='a table with the top row reads the numbers 0-9 (numbers can be in order of scrambled according to a key value), the second row displays the letters: at one sir, aligned with some of the numbers (01=at, 345=one, 789=sir, 8 commonly used letters in varying order, useful mnemonics include at one sir, aero tins, etc). The third row is labelled as 2, and has letters ordered as follows: bcdfghjklm, the last row is labelled as 6 and has the following letters: pquvwxyx./'>
+    <p class="noprint">this technique fractionates and compresses plaintext with some lettersof the alphabet becoming represented by 1 or 2 digits. The most used letters are assigned single digits.</p>
+    <img src='../media/content/cipher_20.jpg' alt='There is an image of a cute rabbit, sitting while holding a ball and a baton, next to them are 3 blocks, each bearing a letter, F I and G.'>
+    <p class="noprint">The remaining gaps arefilled with the remaining letter of the alphabet in alphabetical order (not reusing letters), plus the 2 symbols "." and "/" (also possible to use FIG).<br>"." is used as a full stop, or as a decimal separator.<br>"/" or FIG, is used to indicate that numbers follow. Add "/" before and after.</p>
+    <img src='../media/content/cipher_21.jpg' alt='There are 2 drawings of carrots floating about. There is a graphic showing numbers grouped as pairs, with the rest as singles. Singles make it easy to disregard, they add nothing to the sentence.'>
+    <p class="noprint">Plain text: Y U M M Y C A R R O T S<br>Conversion: 66 62 29 29 66 21 0 9 9 3 1 7<br>In groups of 5: 66622 92966 21099 31700 (padded with zeros)<br>When converting the numbers back, separating the one digit numbers from the 2 digit numbers only involves finding numbers beginning with 2, or 6, the rest are all one digit.<br></p>
+    <h2>Scrambling An Alphabet</h2>
+    <img src='../media/content/cipher_22.jpg' alt='There are 2 tables, labelled as A and B. A shows the keyword lepor ordered as 21435, with the letters of the alphabet listed underneath without reusing keyword letters. The resulting ciphertext is : ebhnv lagmu zodjs wrfkty. Option b shows a table, again with lepor as a keyword, but everything a letter is reused a - is added in its place. The resulting ciphertext is : ebgqv lafku zodin sxpchm wrjty'>
+    <p class="noprint">It is possible to scramble an alphabet for use in a polybius square, straddled checkerboard, or to generate a complex transposition.<br>Say we use the keyword Lepore, using each letter once, one option is to fill the table with the rest of the alphabet(A), or to put spaces everytime a letter is reused(B).</p>
 </main>
 <footer>
     <div id='wrapfooter'>
