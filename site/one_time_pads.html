@@ -22,7 +22,9 @@
 <main>
         <nav>
         <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Iroha">Iroha</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Numbers_station">Numbers Station</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Numbers_station">Printout of vigenere disk</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Numbers_station">Photo of homemade vigenere disk</a></li>
         </ul>
     </nav>
     <img src='../media/content/otp_13.jpg' alt='a drawing of a humanoid gull and rabbit each holding 2 pieces of paper, one labelled as Key and the other as Table.'>
@@ -30,26 +32,46 @@
     <img src='../media/content/otp_01.jpg' alt='a drawing of 2 codebooks, a red one for encoding and a blue one for decoding'>
     <p class='noprint'>There are many ways to make one-time pad encryptions.<br>OTLP(one-time letter pads): letters only, encrypted using a vigenere table, a diana table or modulo 26, etc), often carried as small easy-to-conceal booklets.<br>OTFP(one-time figure pads): numbers only(many transmitting devices only accept numbers), message is turned into plaincode (using a straddling checkerboard, or a A=00, B=01, Z=25 system), plaincode is encrypted using modulo 10, often used with big codebooks(because codebooks compressed words and phrases into short letteror number codes, messages were less costly to send by telegraph).</p>
     <img src='../media/content/otp_02.jpg' alt=''>
-    <img src='../media/content/otp_16.jpg' alt=''>
-    <img src='../media/content/otp_otlp.jpg' alt=''>
+    <p class='noprint'>The one-time pad(OTP) is a very secure way to encrypt plaintext. It is deemed impossible to crack, provided that some conditions are met.<br>The rules for safe encryption: The key has to be at least as long as the plaintext message, the key has to be truly random, the key must never be reused, and the key has to be kept secret(known only by the sender & receiver).</p>
+    <img src='../media/content/otp_16.jpg' alt='a drawing of a gull head speaking'>
+    <p class='noprint'>If the message is 21 characters long, for example: calculators are awesome, the key has to be 21+ characters long, for example: LPAZMCYXNERDQSVUIFHG</p>
+    <h2>One time letter pad</h2>
+    <img src='../media/content/otp_otlp.jpg' alt='one time letter pads'>
     <img src='../media/content/otp_21.jpg' alt=''>
+    <p class='noprint'>The vignere table, the vigenere disk and modulo 26 all do the same thing and produce the same result.</p>
     <img src='../media/content/otp_03.jpg' alt=''>
-    <img src='../media/content/otp_vigenere.jpg' alt=''>
+    <p class='noprint'>A vignere table encodes each plaintext letter by substituting it with one a number of spaces away, the number of spaces is determined by the associated key letter.</p>
+    <img src='../media/content/otp_vigenere.jpg' alt='a graphic showing a vignere table, with the alphabet displayed with a shift to the left'>
     <img src='../media/content/otp_12.jpg' alt=''>
+    <p class='noprint'>Example:<br>Message: the rabbit and the gull<br>key: WCX FRASVI NOY HDT UMPZ<br>To encrypt the message using a vigenere table, take the first letter of the message: T, and the corresponding key letter: W, on the vignere table, go to the column labelled as T, then go down to the row labelled as W. The letter at the intersection of these 2 letters is the ciphered letter P. Do the same thing with the rest of the message until all the letters are ciphered.<br>Ciphertext: PJBWR BTDBN BBAKX AGAK</p>
     <img src='../media/content/otp_05.jpg' alt=''>
-    <img src='../media/content/otp_04.jpg' alt=''>
+    <p class='noprint'>Shifting the letters by a certain direction(left/right) by a number of spaces is called a Caesar Cipher. It is easily deciphered when used by itself which is why it is usually incorporated as part of a bigger system, like the vigenere cipher.</p>
+    <img src='../media/content/otp_04.jpg' alt='a graphic shows a humanoid rabbit jumping over a top row of letters, from a to i, arrows going left link up the top row of letters to another row below it. The letter e points to a, f to b, g to c, h to d and i to e.'>
+    <p class='noprint'>Example: Here is an alphabet that uses a right shift of 4 spaces.</p>
     <img src='../media/content/otp_22.jpg' alt=''>
-    <img src='../media/content/otp_17.jpg' alt=''>
+    <p class='noprint'>Plaintext: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>Ciphered: W X Y Z A B C D E F G H I J K L M N O P Q R S T U V</p>
+    <h2>Vigenere Disk</h2>
+    <img src='../media/content/otp_17.jpg' alt='hands holding a vignere disk'>
     <img src='../media/content/otp_disk.jpg' alt=''>
+    <p class='noprint'>Here is a compact way to make a vignere table, it is a bit faster to use and will achieve the same result. It consists of 1 large disk superimposed by a smaller one. Both are divided into 26 parts and bound at the center. The top disk spins over the bottom one.<br>To use a vigenere disk to encrypt a mesage, align the key letter on the inner ring with A on the outer ring.<br>Outer ring = plaintext<br>Inner ring = ciphertext.<br>Example:<br>Message: Waves<br>Key: XFLNA<br>Rotate inner disk so that W aligns with A(outer disk), look at X on the outer disk, the letter under it is the ciphered letter T.<br>Cipher: TFGRS</p>
+    <h2>Diana Table</h2>
     <img src='../media/content/otp_09.jpg' alt=''>
+    <p class='noprint'>The diana table is an entirely different way to encode plaintext. It encrypts messages faster, it is less cumbersome, less error-prone and less time consuming than the vigenere method.</p>
     <img src='../media/content/otp_23.jpg' alt=''>
-    <img src='../media/content/otp_diana.jpg' alt=''>
+    <p class='noprint'>Under each column is a regular alphabet(A to Z) and one in reverse(Z to A). The reversed letters in the table are shifted by 1 position.</p>
+    <img src='../media/content/otp_diana.jpg' alt='a graphic showing a diana table'>
     <img src='../media/content/otp_10.jpg' alt=''>
+    <p class='noprint'>Let's encrypt a message using a reciprocal diana table:<br> plaintext: a good wave<br> Key: H XWBI LDZC<br>To create the ciphertext, take the letter A(1st letter) of the plaintext message), and the key letter H.<br>In the reciprocal table, go to column A, go down to the letter H (8th row), the lowercase letter next to the H in the A column is the ciphered letter S.<br>You can swap the order of plaintext and the key, both are fine.<br>Ciphertext: SWPKOSWFT<br>To decrypt, go to column H, down to S, the lowercase A is the deciphered letter.</p>
     <img src='../media/content/otp_11.jpg' alt=''>
+    <p class='noprint'>An even faster way to encrypt using the Diana table is to memorize series of 3 letters(trigrams) using a mnemonic.<br>Consider the column M, row F and lowercase i, the reciprocal property of the table allows for any combination of these 3 letters.<br>MFI MIF FMI FIM IMF IFM<br>If decrypting any letters from the 3-letter group with another from the same group, it is always possible to get the last letter of the group, the order doesn't matter.<br>Combining letters into trigrams reduces the number of combinations to remember(126 instead of 676). Creating your own mnemonic like TOS(terms of service), or AOL(america online), can help speed up encryption/decryption.<br>OTLPs typically spell out punctuation and figures, but it is also possible to omit them(if it doesn't affect readability).</p>
+    <h2>Module 26</h2>
     <img src='../media/content/otp_06.jpg' alt=''>
+    <p class='noprint'>Its also possible to combine the key and plaintext message using modular addition(modulo 26).<br>Modulo is an operation that finds what is left over when dividing 2 numbers(it really just means, in relation to the vigenere table, that if the number goes past Z, the sequence starts again at A).<br>Example:<br> 40 mod26 is 14<br>40/26=1.538462<br>1x26=26<br>40-26=14<br>40/26 has a quotient of 26 with 14 left over<br>Here's a smaller number to make it easier to visualize it:<br>5 mod 4 = 1<br>Picture a box that only has 4 spaces.<br>A graphic shows a box divided into 4, with a single circle occupying each one, a 5th one lies outside of the box(this is the remainder, it is what doesn't fit in the box).<br>Let's encode a message using mod26!<br>message: rabbits<br>random key: YMPQAFT<br>R(17) A(0) B(1) B(1) I(8) T(19) S(18) (numbering of alphabet starts at 0, so A is numbered as 0, B as 1, etc). This is the message converted to numbers<br>Y(24) M(12) P(15) Q(16) A(0) F(5) T(19). This is the key when converted to numbers.<br>Add up the message number with the key number: 17+24=41, 0+12=12, 1+15=16, 1+16=17, 8+0=8, 19+5=24, 18+19=37<br>If a number is larger than 25, than apply mod26: 15, 12, 16, 17, 8, 24, 11.<br>When converted back into letters: P M Q R I Y L</p>
+    <h2>One-time figure pad</h2>
     <img src='../media/content/otp_otfp.jpg' alt=''>
-    <img src='../media/content/otp_19.jpg' alt=''>
-    <p class='noprint'></p>
+    <p class='noprint'>Its also possible to encrypt a message with numbers. The first step is to convert the plaintext into digits using a straddling checkerboard. Then, the plaintext becomes plaincode and is encrypted using modulo 10(by substracting the key from the message without borrowing).<br>Example:<br>Message: I am a rabbit<br>A graphic shows a straddling checkerboard made with the key AT ONE SIR.<br>Key: 8250781392<br>Plaincode message: 802909202081<br>...encrypted using mod10:<br>The message is substracted by the key: 8-8=0, 0-2=8, 2-5=7, 9-0=0, 0-7=3, 9-8=1, 0-1=9, 2-3=9, 0-9=2, 8-2=6, 1-4=7, 0-4=6, 0-3=7, 0-8=2, 0-1=9 (the last group of the message is completed with zeros).<br>What to do when substracting 2-5? Its the same as saying "move back 5 spaces", a graphic shows numbers from 0-9, with an arrow starting at 2, skipping to the left 5 times until it hits the number 7.</p>
+    <img src='../media/content/otp_19.jpg' alt='a drawing shows hazy listening to a number station broadcast on the radio and is taking notes'>
+    <p class='noprint'>Let's decrypt a message!<br>Let's pretend Hazy and Arkady are sending secret messages to each other. They each have their own(but identical) pad. They picked a page on the pad, a day and a time to send and receive the message.<br>Arkady is sending the following encrypted message on the radio:<br>37253 48793 94895 98454 19148<br>Messages were often transmitted by way of number stations.<br>A sender and receiver can arrange to use a specific page of the pad ahead of time, or add the page number(pad pages were numbered and the pads, serialized) and the serial number in 2 groups of 5 at the start of a transmitted message.<br>Hazy writes it down and begins to decode it. They begin by adding up the message and key together(Hazy refers to the agreed on page for that day on their one-time pad to turn it back into plaincode).<br> (ciphered message) 37253 48793 94895 98454 19148 + (key) 85342 18335 10781 57368 91389 = 12595 56028 04576 45712 00427 (plaincode message).<br>Then, they turn it back into letters using a straddling checkerboard with "at one sir" as the key.<br>The deciphered message: Three planes west bank.</p>
 </main>
 <footer>
     <div id='wrapfooter'>
